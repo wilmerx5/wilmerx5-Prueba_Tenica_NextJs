@@ -20,6 +20,10 @@ Este es el repositorio del frontend para la aplicación. A continuación se pres
 
 <p> 6. abrir la url en el navegador y verificar el funcionamiento </p>
 
+<p> Usuario de prueba user:wilmercampos2004@gmail.com || password:12345678A. </p>
+
+   *para ver detalles de un task hacer click sobre el mismo 
+
 #Explicacion tecnica
 En este proyecto, se implementaron varias características clave para mejorar la experiencia del usuario y la estructura del código:
 
