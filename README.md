@@ -24,6 +24,8 @@ Este es el repositorio del frontend para la aplicación. A continuación se pres
 
    *para ver detalles de un task hacer click sobre el mismo 
 
+enlace a video de ocmo usar el proyecto:https://youtu.be/-7S6wHtMtnw
+
 #Explicacion tecnica
 En este proyecto, se implementaron varias características clave para mejorar la experiencia del usuario y la estructura del código:
 
