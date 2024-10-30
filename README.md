@@ -5,14 +5,20 @@ Este es el repositorio del frontend para la aplicación. A continuación se pres
 ## Instrucciones de Ejecución
 
 1. **Clonar el Repositorio**
-
+   
    Clona este repositorio en tu máquina local usando el siguiente comando:
+   -> git clone https://github.com/wilmerx5/wilmerx5-Prueba_Tenica_NextJs_FRONT/
 
-2. instalar dependencias con npm install
-3. Ejecutar el servidor con npm run dev
+3. instalar dependencias
+   -> npm install
+4. Ejecutar el servidor con
+   -> npm run dev
      IMPORTANTE: verificar que el servidor se este ejecutando en el puerto 3000
 
-4. abrir la url en el navegador y verificar el funcionamiento
+
+<p> 5. verificar que el servidor Backend este f¿en ejecucion </p>
+
+<p> 6. abrir la url en el navegador y verificar el funcionamiento </p>
 
 #Explicacion tecnica
 En este proyecto, se implementaron varias características clave para mejorar la experiencia del usuario y la estructura del código:
@@ -23,4 +29,4 @@ Integración con Backend: La aplicación frontend se comunica con el backend a t
 
 Estructura Modular: El código está organizado en componentes reutilizables, lo que facilita la mantenibilidad y escalabilidad del proyecto. Cada componente está diseñado para cumplir una función específica, promoviendo la separación de responsabilidades.
 
-Se opto por no usar herramienta de estados globales, bajo la ocniserazion de no ser necesarias en este proyecto
+Se opto por no usar herramienta de estados globales, bajo la consideracion de no ser necesarias en este proyecto
