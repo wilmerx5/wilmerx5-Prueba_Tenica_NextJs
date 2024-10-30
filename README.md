@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Proyecto Frontend
 
-## Getting Started
+Este es el repositorio del frontend para la aplicación. A continuación se presentan las instrucciones para ejecutar la aplicación y una descripción técnica del mismo.
 
-First, run the development server:
+## Instrucciones de Ejecución
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clonar el Repositorio**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   Clona este repositorio en tu máquina local usando el siguiente comando:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. instalar dependencias con npm install
+3. Ejecutar el servidor con npm run dev
+     IMPORTANTE: verificar que el servidor se este ejecutando en el puerto 3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. abrir la url en el navegador y verificar el funcionamiento
 
-## Learn More
+#Explicacion tecnica
+En este proyecto, se implementaron varias características clave para mejorar la experiencia del usuario y la estructura del código:
 
-To learn more about Next.js, take a look at the following resources:
+Rutas Protegidas: Se implementaron guardias de navegación para asegurar que los usuarios autenticados puedan acceder solo a ciertas rutas. Esto ayuda a proteger partes sensibles de la aplicación y a ofrecer una mejor experiencia al usuario.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Integración con Backend: La aplicación frontend se comunica con el backend a través de API REST. Se utilizan métodos HTTP para enviar y recibir datos, asegurando que la información se maneje de manera eficiente y segura.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Estructura Modular: El código está organizado en componentes reutilizables, lo que facilita la mantenibilidad y escalabilidad del proyecto. Cada componente está diseñado para cumplir una función específica, promoviendo la separación de responsabilidades.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Se opto por no usar herramienta de estados globales, bajo la ocniserazion de no ser necesarias en este proyecto
